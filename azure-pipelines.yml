@@ -25,4 +25,4 @@ steps:
     appType: 'webAppMicrosoft'
     appName: 'toniotest'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    deploymentMethod: zipDeploy
+    deploymentMethod: auto
